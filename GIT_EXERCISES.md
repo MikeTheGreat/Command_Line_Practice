@@ -4,6 +4,8 @@ These exercises will teach you the fundamentals of Git version control using com
 
 **Important**: These exercises ask you to figure out what commands to use. If you get stuck, check [GIT_WALKTHROUGH.md](GIT_WALKTHROUGH.md) or [GIT_SOLUTIONS.md](GIT_SOLUTIONS.md) for help!
 
+**Pro Tip**: After running commands that modify your repository (like `git add`, `git commit`, `git checkout`, etc.), always run `git status` to see what changed! This helps you understand what's happening at each step.
+
 ## Prerequisites
 
 - Git installed on your system
@@ -65,6 +67,8 @@ Git knows about your README.md file, but it's not tracking it yet. You need to a
 
 **Your task**: Add `README.md` to the staging area (also called the "index"), then check the status.
 
+**Remember**: Use `git status` after staging to see how things changed!
+
 **Questions**:
 1. What color is the filename now?
 2. How did the status output change?
@@ -80,6 +84,8 @@ Now commit the staged changes with the message "Initial commit: add README"
 **Your task**:
 1. Make your first commit
 2. Check the status afterward
+
+**Remember**: Always run `git status` after committing!
 
 **Questions**:
 1. What does the status command say now?
@@ -110,6 +116,8 @@ Now let's practice the modify-stage-commit cycle:
 
 **Your task**: Complete the cycle to commit this change with message "Add description to README"
 
+**Remember**: Run `git status` after each command (after modifying, after staging, after committing)!
+
 **Notice** what the status shows after each step:
 - After modifying (what's in the working tree?)
 - After staging (what's in the staging area/index?)
@@ -127,8 +135,8 @@ Now let's practice the modify-stage-commit cycle:
 **Your task**:
 1. Create three files: `file1.txt`, `file2.txt`, and `file3.txt` (put any text you want in them)
 2. Check the status - how many untracked files do you see?
-3. Stage all three files
-4. Commit them with message "Add three text files"
+3. Stage all three files (then check status!)
+4. Commit them with message "Add three text files" (then check status!)
 5. View the commit history in a condensed format (one line per commit)
 
 **Hint for the last step**: Use `git log --oneline`
@@ -147,7 +155,7 @@ Now let's practice the modify-stage-commit cycle:
 2. Check status
 3. Stage ALL changed/new files using a shortcut (not by naming each file)
 4. Check status again
-5. Commit with message "Add notes and todo files"
+5. Commit with message "Add notes and todo files" (then check status!)
 6. View the condensed commit history
 
 **Question**: What's the difference between staging individual files versus staging all files at once? When might each be useful?
@@ -160,10 +168,10 @@ Now let's practice the modify-stage-commit cycle:
 1. Add a line to `notes.txt`: "Git tracks changes to files"
 2. Check the status
 3. View the exact changes you made (what lines were added/removed)
-4. Now stage the file
+4. Now stage the file (then check status!)
 5. Try to view changes again - what do you see?
 6. View the *staged* changes
-7. Commit with message "Update notes with Git information"
+7. Commit with message "Update notes with Git information" (then check status!)
 
 **Questions**:
 1. What does the diff command show you before staging?
@@ -240,7 +248,7 @@ This interactive tutorial will show you:
 
 ### Exercise 3.2: Checkout an Earlier Commit
 
-**Your task**: Checkout that earlier commit using its hash.
+**Your task**: Checkout that earlier commit using its hash, then run `git status` to see what Git tells you.
 
 **Questions**:
 1. What warning message does Git give you?
@@ -285,7 +293,7 @@ Detached: HEAD -> commit2 -> commit1
 
 ### Exercise 3.5: Return to the Present
 
-**Your task**: Return to your main branch (or master branch if that's what your default is called).
+**Your task**: Return to your main branch (or master branch if that's what your default is called), then run `git status`.
 
 Then verify:
 1. List your files
@@ -371,8 +379,8 @@ GitHub will show you instructions after creating the repo. Look for the section 
 
 **Your task**:
 1. Add a line to README.md: "GitHub integration is working!"
-2. Stage the change
-3. Commit with message "Confirm GitHub integration"
+2. Stage the change (check status!)
+3. Commit with message "Confirm GitHub integration" (check status!)
 4. Push to GitHub (you don't need the `-u origin main` flags this time)
 
 **Then**: Refresh GitHub - do you see the new commit?
@@ -417,8 +425,8 @@ Now let's make a change ON GitHub's remote repository:
 
 **Part A - Local to Remote**:
 1. Add a line to `notes.txt`: "Local change"
-2. Stage it
-3. Commit it with message "Add local note"
+2. Stage it (check status!)
+3. Commit it with message "Add local note" (check status!)
 4. Push to GitHub
 5. Verify on GitHub in browser
 
@@ -471,8 +479,8 @@ Even though you can't push to someone else's repository, you can make local comm
 
 **Your task**:
 1. Create a file called `MY_NOTES.md` with any content
-2. Stage it
-3. Commit it with message "Add my personal notes"
+2. Stage it (check status!)
+3. Commit it with message "Add my personal notes" (check status!)
 4. View the commit history
 
 **Questions**:
