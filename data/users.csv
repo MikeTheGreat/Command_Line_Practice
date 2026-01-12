@@ -1,0 +1,13 @@
+username,email,age,country,registration_date
+alice_wonder,alice@example.com,28,USA,2023-01-15
+bob_builder,bob@example.com,35,Canada,2023-02-20
+charlie_brown,charlie@example.com,22,UK,2023-03-10
+diana_prince,diana@example.com,30,USA,2023-04-05
+eve_online,eve@example.com,25,Australia,2023-05-12
+frank_castle,frank@example.com,42,USA,2023-06-18
+grace_hopper,grace@example.com,29,UK,2023-07-22
+hank_pym,hank@example.com,31,Canada,2023-08-30
+ivy_league,ivy@example.com,24,USA,2023-09-14
+jack_sparrow,jack@example.com,38,Australia,2023-10-25
+karen_page,karen@example.com,27,UK,2023-11-08
+luke_cage,luke@example.com,33,USA,2023-12-01

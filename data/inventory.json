@@ -1,0 +1,27 @@
+{
+  "warehouse": "Main",
+  "last_updated": "2024-01-15T10:30:00Z",
+  "products": [
+    {
+      "id": "P001",
+      "name": "Laptop",
+      "locations": ["A1", "A2"],
+      "reorder_point": 5,
+      "restocking_scheduled": false
+    },
+    {
+      "id": "P002",
+      "name": "Mouse",
+      "locations": ["B3"],
+      "reorder_point": 20,
+      "restocking_scheduled": true
+    },
+    {
+      "id": "P007",
+      "name": "Notebook",
+      "locations": ["C1", "C2", "C3"],
+      "reorder_point": 50,
+      "restocking_scheduled": false
+    }
+  ]
+}

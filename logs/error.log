@@ -1,0 +1,16 @@
+2024-01-15 10:24:15 ERROR Failed to load configuration file: config.xml not found
+    at com.example.config.ConfigLoader.load(ConfigLoader.java:45)
+    at com.example.Application.init(Application.java:23)
+
+2024-01-15 10:25:45 ERROR NullPointerException in OrderService.processOrder at line 42
+    at com.example.services.OrderService.processOrder(OrderService.java:42)
+    at com.example.controllers.OrderController.handleRequest(OrderController.java:78)
+    at java.base/java.lang.Thread.run(Thread.java:829)
+
+2024-01-15 10:27:30 ERROR Database connection lost
+    java.sql.SQLException: Connection timeout
+    at com.mysql.cj.jdbc.ConnectionImpl.ping(ConnectionImpl.java:854)
+
+2024-01-15 10:30:22 ERROR Payment processing failed: Invalid card number
+    at com.example.payment.PaymentProcessor.processPayment(PaymentProcessor.java:67)
+    at com.example.services.OrderService.completeOrder(OrderService.java:89)

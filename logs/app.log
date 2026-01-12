@@ -1,0 +1,16 @@
+2024-01-15 10:23:45 INFO  Application started successfully
+2024-01-15 10:23:46 DEBUG Database connection established
+2024-01-15 10:24:12 INFO  User login: username=alice
+2024-01-15 10:24:15 ERROR Failed to load configuration file: config.xml not found
+2024-01-15 10:24:20 INFO  User login: username=bob
+2024-01-15 10:25:03 WARN  High memory usage detected: 85%
+2024-01-15 10:25:45 ERROR NullPointerException in OrderService.processOrder at line 42
+2024-01-15 10:26:10 INFO  Order processed: ORDER-12345
+2024-01-15 10:26:15 DEBUG Cache hit for product: P001
+2024-01-15 10:27:30 ERROR Database connection lost
+2024-01-15 10:27:31 INFO  Attempting to reconnect to database
+2024-01-15 10:27:35 INFO  Database connection restored
+2024-01-15 10:28:00 WARN  Slow query detected: 5.2 seconds
+2024-01-15 10:29:15 INFO  User logout: username=alice
+2024-01-15 10:30:22 ERROR Payment processing failed: Invalid card number
+2024-01-15 10:31:05 INFO  Daily backup completed successfully

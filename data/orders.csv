@@ -1,0 +1,11 @@
+order_id,user,product_id,quantity,total,status,date
+ORD-001,alice_wonder,P001,1,999.99,completed,2024-01-10
+ORD-002,bob_builder,P002,2,59.98,completed,2024-01-11
+ORD-003,charlie_brown,P005,1,199.99,pending,2024-01-12
+ORD-004,diana_prince,P011,1,149.99,completed,2024-01-12
+ORD-005,eve_online,P007,5,24.95,completed,2024-01-13
+ORD-006,frank_castle,P004,2,599.98,cancelled,2024-01-13
+ORD-007,alice_wonder,P009,1,49.99,completed,2024-01-14
+ORD-008,bob_builder,P014,3,119.97,pending,2024-01-14
+ORD-009,grace_hopper,P003,1,79.99,completed,2024-01-15
+ORD-010,hank_pym,P012,1,89.99,completed,2024-01-15
