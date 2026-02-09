@@ -1,6 +1,7 @@
 # Order Management System
 
 This is a sample e-commerce order management system.
+It's very cool
 
 ## Features
 

@@ -25,7 +25,7 @@ Show the contents of the EXERCISES.md file on the command line.  Make sure that 
 **Hint**: Use `less` 
 
 ### Exercise 0.3: Search for a string using less
-Show the contents of the EXERCISES.md file on the command line using `less`. Find a level three header (which starts with ###) by using the forward search command ( type `/` and then what you're looking for, then press return/enter).  Find the next one by using the `n` command.  Find the previous one by using the `N` commmand
+Show the contents of the EXERCISES.md file on the command line using `less`. Find a level three header (which starts with ###) by using the forward search command ( type `/` and then what you're looking for, then press return/enter).  Find the next one by using the `n` command.  Find the previous one by using the `N` commmand.  Type `q` to **q**uit the program.
 
 **Hint**: Use `less` with the `/` command, `n` command, and the `N` commmand
 
